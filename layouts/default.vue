@@ -1,8 +1,28 @@
 <template>
-  <div>
-    <nuxt />
-  </div>
+  <b-container fluid>
+    <b-row>
+      <Header />
+    </b-row>
+    <b-row>
+      <nuxt />
+    </b-row>
+    <b-row>
+      <Footer />
+    </b-row>
+  </b-container>
 </template>
+
+<script>
+import Header from '~/components/Header.vue'
+import Footer from '~/components/Footer.vue'
+
+export default {
+  components: {
+    Header,
+    Footer
+  }
+}
+</script>
 
 <style>
 html {

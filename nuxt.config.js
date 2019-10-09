@@ -21,7 +21,7 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Montserrat|Open+Sans&display=swap' }
+      { rel: 'stylesheet', href: 'https://use.typekit.net/zct8gye.css' }
     ],
     script: [
       { src: 'https://cdnjs.cloudflare.com/ajax/libs/velocity/1.2.3/velocity.min.js', defer: true}

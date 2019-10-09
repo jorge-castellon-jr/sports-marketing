@@ -1,0 +1,42 @@
+---
+label: Company
+hide_body: true
+fields:
+- name: logo
+  type: file
+  config:
+    maxSize: 250
+  label: Logo
+- type: text
+  name: company_name
+  label: Company Name
+- type: text
+  name: desc
+  label: Description
+- name: phone
+  type: text
+  config:
+    required: true
+  label: Phone
+- name: address_
+  type: boolean
+  label: Address?
+- type: text
+  name: address
+  label: Address
+  showOnly:
+    field: address_
+    value: true
+- name: email_
+  type: boolean
+  label: Email?
+- name: email
+  type: text
+  config:
+    required: false
+  label: Email
+  showOnly:
+    field: email_
+    value: true
+pages:
+- content/data/company.json

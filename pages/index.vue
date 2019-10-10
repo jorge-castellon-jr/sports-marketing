@@ -1,7 +1,7 @@
 <template>
   <b-row>
     <b-row class="th__hero-image" >
-      <b-img fluid-grow :src="`${home.hero_image}`"></b-img>
+      <b-img fluid :src="`${home.hero_image}`"></b-img>
     </b-row>
     <b-container class="th__content" :style="cssProps">
       <h1 class="th__cta-title">{{ home.cta }}</h1>

@@ -1,10 +1,10 @@
 {
   "logo": "/Emerge Sports 1.png",
-  "company_name": "Sports Marketing",
-  "desc": "We do sport stuff",
-  "phone": "(916) 999-0000",
+  "company_name": "Emerge Sports",
+  "desc": "Sports Marketing by Justin Henry",
+  "phone": "(916) 801-1441",
   "address_": false,
   "address": "",
-  "email_": false,
-  "email": ""
+  "email_": true,
+  "email": "justinh@emergemktg.com"
 }

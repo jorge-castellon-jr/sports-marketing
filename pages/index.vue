@@ -93,7 +93,8 @@ $cta: #313131;
 
 .th {
   &__hero-image {
-    margin-bottom: 40px;
+    margin: 0 0 40px;
+    max-width: 100%;
   }
   &__content {
     max-width: 480px;

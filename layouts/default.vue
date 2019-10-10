@@ -47,6 +47,10 @@ h2 {
   }
 }
 
+img {
+  max-width: 100%;
+}
+
 *,
 *:before,
 *:after {

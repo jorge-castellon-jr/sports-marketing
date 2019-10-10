@@ -46,6 +46,9 @@ h2 {
     font-size: 28px;
   }
 }
+a {
+  color: white;
+}
 
 img {
   max-width: 100%;

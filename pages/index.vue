@@ -1,6 +1,6 @@
 <template>
   <b-row>
-    <b-img class="th__hero-image" :src="`${home.hero_image}`"></b-img>\
+    <b-img class="th__hero-image" :src="`${home.hero_image}`"></b-img>
     <b-container class="th__content" :style="cssProps">
       <h1 class="th__cta-title">{{ home.cta }}</h1>
       <h2 class="th__cta-body">{{ home.cta_body }}</h2>

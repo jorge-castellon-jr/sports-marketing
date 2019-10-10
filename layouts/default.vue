@@ -49,6 +49,7 @@ h2 {
 
 img {
   max-width: 100%;
+  flex-shrink: 0;
 }
 
 *,

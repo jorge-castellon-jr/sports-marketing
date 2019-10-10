@@ -5,7 +5,8 @@
             <p>{{ phone }}</p>
             <p v-if="company.email_">{{company.email}}</p>
             <p v-if="company.address_">{{company.address}}</p>
-            <p>© {{ year() }}</p>
+            <p>© {{ year() }}, {{ company.company_name }}</p>
+            <a href="https://thoriumdesign.com"><p>Designed and developed by Thorium Design, LLC</p></a>
         </b-container>
     </b-row>
 </template>
@@ -92,6 +93,16 @@ $primary-hover: var(--primary-hover);
     padding-bottom: 100px;
     .container {
         max-width: 480px;
+    }
+    p {
+        margin-bottom: 0;
+    }
+    a {
+        color: white;
+        text-decoration: underline;
+        p {
+            margin-top: 24px;
+        }
     }
   }
 }

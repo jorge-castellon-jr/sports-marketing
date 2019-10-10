@@ -18,7 +18,7 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss">
 :root {
   font-size: 16px;
   word-spacing: 1px;
@@ -30,13 +30,21 @@ p,h1,h2,h3,h4,h5,h6,div,a {
 }
 
 h1 {
-  font-size: 45px;
+  font-size: 32px;
   line-height: 1.1em;
   margin-bottom: 10px;
+
+  @media only screen and (min-width: 576px) {
+    font-size: 45px;
+  }
 }
 h2 {
-  font-size: 28px;
+  font-size: 21px;
   line-height: 1.18em;
+  
+  @media only screen and (min-width: 576px) {
+    font-size: 28px;
+  }
 }
 
 *,

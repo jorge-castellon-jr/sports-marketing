@@ -29,6 +29,12 @@ p,h1,h2,h3,h4,h5,h6,div,a {
   font-family: proxima-nova, sans-serif;
 }
 
+p {
+  font-size: 18px;
+  line-height: 1.5em;
+  margin-bottom: 1.5em;
+  color: #313131;
+}
 h1 {
   font-size: 32px;
   line-height: 1.1em;

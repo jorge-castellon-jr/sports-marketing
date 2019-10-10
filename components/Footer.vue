@@ -95,6 +95,7 @@ $primary-hover: var(--primary-hover);
         max-width: 480px;
     }
     p {
+        color: white;
         margin-bottom: 0;
     }
     a {

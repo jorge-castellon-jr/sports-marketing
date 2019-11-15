@@ -8,7 +8,7 @@
         <phoneSVG />
         {{ formatPhoneNumber(phone) }}
       </b-button>
-      <div class="th__body" v-html="home.body"></div>
+      <Block :blocks="home.blocks"/>
     </b-container>
   </b-row>
 </template>
@@ -17,6 +17,7 @@
 import homeJSON from '~/content/data/home.json'
 import companyJSON from '~/content/data/company.json'
 import phoneSVG from '~/components/PhoneSVG.vue'
+import Blocks from '~/components/Blocks.vue'
 
 export default {
   data () {
@@ -27,7 +28,8 @@ export default {
     }
   },
   components: {
-    phoneSVG
+    phoneSVG,
+    Blocks
   },
   computed: {
     cssProps () {
@@ -91,12 +93,13 @@ $cta: #313131;
 
 .th {
   &__hero-image {
-    margin: 0 0 40px;
+    // margin: 0 0 40px;
+    margin-bottom: 40px;
     max-width: 100%;
   }
   &__content {
     max-width: 480px;
-    margin: 0 auto;
+    // margin: 0 auto;
   }
   &__cta {
     &-title {

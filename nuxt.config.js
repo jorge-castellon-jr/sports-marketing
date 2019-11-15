@@ -9,6 +9,9 @@ const dynamicRoutes = getDynamicPaths({
 
 export default {
   mode: 'universal',
+  server: {
+    port: 8000,
+  },
   /*
   ** Headers of the page
   */

@@ -8,7 +8,7 @@
         <phoneSVG />
         {{ formatPhoneNumber(phone) }}
       </b-button>
-      <Block :blocks="home.blocks"/>
+      <Blocks :blocks="home.blocks"/>
     </b-container>
   </b-row>
 </template>

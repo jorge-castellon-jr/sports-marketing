@@ -1,10 +1,10 @@
 {
-  "logo": "/Emerge Sports 1.png",
-  "company_name": "Emerge Sports",
-  "desc": "Sports Marketing by Justin Henry",
-  "phone": "(916) 801-1441",
+  "logo": "/emergesprts.png",
+  "company_name": "Emerge Sports Group",
+  "desc": "At Emerge Sports Group, we empower athletes to tell their stories the right way. We want to bridge the gap between professional athletes access to building their brands. ",
+  "phone": "(916) 444-4444",
   "address_": false,
   "address": "",
   "email_": true,
-  "email": "justinh@emergemktg.com"
+  "email": "info@emergesportsgroup.com"
 }

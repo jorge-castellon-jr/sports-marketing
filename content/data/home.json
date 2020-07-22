@@ -15,6 +15,20 @@
         "/stk_11-30_jh1.jpg",
         "/stk_11-30_wt83.jpg"
       ]
+    },
+    {
+      "template": "cards",
+      "card_columns": "3",
+      "cards": [
+        {
+          "card_title": "Justin Henry, Founder",
+          "card_image": "/ikona_photography_37773541_288835031867902_5891713184624017408_n.jpg",
+          "card_content": "<p>Justin Henry is the Founder of Emerge Sports Group.</p>",
+          "button_": true,
+          "button_label": "JustHoopTalk",
+          "button_link": "www.justhooptalk.com"
+        }
+      ]
     }
   ]
 }

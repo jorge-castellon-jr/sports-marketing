@@ -21,6 +21,14 @@
       "card_columns": "3",
       "cards": [
         {
+          "card_title": "Marcus Graves",
+          "card_image": "/stk_11-30_jh1.jpg",
+          "card_content": "",
+          "button_": false,
+          "button_label": "",
+          "button_link": ""
+        },
+        {
           "card_title": "Justin Henry, Founder",
           "card_image": "/ikona_photography_37773541_288835031867902_5891713184624017408_n.jpg",
           "card_content": "<p>Justin Henry is the Founder of Emerge Sports Group.</p>",
